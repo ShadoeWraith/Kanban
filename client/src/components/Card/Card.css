@@ -1,0 +1,23 @@
+@import url("../../index.css");
+
+.card{
+  display: flex;
+  position: relative;
+}
+
+
+.card-title {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+
+.card-options {
+  position: absolute;
+  top: 0rem;
+  right: 1rem;
+  max-width: 1.75rem;
+}
+
+.card-options:hover {
+  cursor: pointer;
+}

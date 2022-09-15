@@ -2,23 +2,68 @@
 
 .board-container {
   display: flex;
-  width: 80vw;
+  width: 92vw;
+  background-color: hsla(0, 0%, 100%, 0.35);
+  border-radius: 2rem;
+  margin: auto;
+  height: 84vh;
+  display: flex;
+  gap: 2rem;
 }
 
-.board-title {
-  position: relative;
-  font-size: 3em;
+.card {
+  display: flex;
+  flex-direction: column;
 }
 
-.edit-button {
-  width: 1em;
-  height: auto;
-  position: absolute;
-  top: .1em;
-  right: -1.25em;
+.card-container {
+  background-color: hsl(0, 0%, 91%);
+  width: max-content;
+  height: max-content;
+  border-radius: 1rem;
+  width: 20rem;
+  margin: 1rem;
 }
 
-.edit-button:hover {
+.add-card {
+  margin-top: .5rem;
+  margin-left: 1rem;
+  background-color: hsl(0, 0%, 91%);
+  width: 20rem;
+  height: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-card:hover {
+  background-color: lightblue;
   cursor: pointer;
-  border: .05em solid transparent;
+}
+
+.card-desc {
+  background-color: white;
+  min-height: 3rem;
+  padding-top: .25rem;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+
+.card-desc:hover{
+  cursor: pointer;
+}
+
+.card-tag {
+  margin-left: 1rem;
+  background-color: green;
+  color: white;
+  width: fit-content;
+  padding: 0 1rem;
+  border-radius: 1rem;
+}
+
+.card-todo {
+  margin-left: 1rem;
+  margin-top: .25rem;
 }
