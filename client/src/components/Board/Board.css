@@ -3,7 +3,7 @@
 .board-container {
   display: flex;
   width: 92vw;
-  background-color: hsla(0, 0%, 100%, 0.35);
+  background-color: hsla(0, 0%, 0%, 0.3);
   border-radius: 2rem;
   margin: auto;
   height: 84vh;
@@ -38,6 +38,23 @@
 }
 
 .add-card:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.add-column {
+  background-color: hsl(0, 0%, 91%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 20rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+}
+
+.add-column:hover {
   background-color: lightblue;
   cursor: pointer;
 }

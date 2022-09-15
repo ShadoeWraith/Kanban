@@ -22,6 +22,7 @@ export default function Board() {
         </div>
         <div className='add-card'>+ Add a card</div>
       </div>
+      <div className='card add-column'>+ Add a column</div>
     </div>
   );
 }
