@@ -1,0 +1,43 @@
+@import url("../../index.css");
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 2em;
+  font-style: italic;
+  padding: 0 1rem;
+  border-radius: .5rem;
+  border-top-right-radius: none;
+  border-bottom-right-radius: none;
+  position: relative;
+}
+
+.title-edit {
+  width: 1em;
+  height: auto;
+  position: absolute;
+  top: .1em;
+  right: -.75em;
+}
+
+.title-edit:hover {
+  cursor: pointer;
+  border: .075em solid transparent;
+}
+
+.nav-buttons {
+  display: flex;
+  margin-left: auto;
+  margin-right: 2rem;
+  gap: 1rem;
+}
+
+.nav-buttons span svg:hover{
+  fill: lightblue;
+  cursor: pointer;
+}
